@@ -1,0 +1,14 @@
+<div class="appcontainer">
+  <h1>Result</h1>
+  <div class="score">
+    <p>This is your word : <%= params[:word] %> </p>
+    <br>
+    <p>Your letters are : <%= @letters %></p>
+    <br>
+    <p>Message_result : <%= @message_result %></p>
+    <br>
+    <p>This is your score : <%= @score %></p>
+  </div>
+  <%= link_to "Play again ?", new_path %>
+  <br>
+</div>
